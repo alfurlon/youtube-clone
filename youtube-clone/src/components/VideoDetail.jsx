@@ -38,7 +38,7 @@ function VideoDetail() {
             </Typography>
             <Stack direction='row' justifyContent='space-between' sx={{ color: '#fff'}} py={1} px={2}>
               <Link to={`/channel/${channelId}`}>
-                <Typography variant={{ sm: 'subtitle1', md: 'h6'}} color='#fff'>
+                <Typography variant={{ sm: 'subtitle1', md: 'h6'}} color='gray'>
                   {channelTitle}
                   <CheckCircle sx={{ fontSize: '12px', color: 'gray', ml: '5px'}} />
                 </Typography>
